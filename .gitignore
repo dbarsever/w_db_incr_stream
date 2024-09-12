@@ -1,0 +1,9 @@
+/.user.yml
+/.vscode
+/logs
+/profiles.yml
+/target
+/dbt_packages
+/datasets
+/integration_tests/functional_tests/__pycache__
+/integration_tests/functional_tests/.pytest_cache
