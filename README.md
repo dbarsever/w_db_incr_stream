@@ -1,6 +1,6 @@
 # dbt-incremental-stream
 **This dbt package is for Snowflake ❄️ only.**
-
+**This package has been modified to work with aggregations. The only reason it has its own github is so the modified version can be pulled with dbt deps**
 **It is reproducing dbt incremental materialization** leveraging on Snowflake [streams](https://docs.snowflake.com/en/user-guide/streams-intro) to :
 * **Improve model performance 💨**. [Stream](https://docs.snowflake.com/en/user-guide/streams-intro) accelerate source table scan focusing new data only 
 * **Optimise FinOps 💰**. Snowflake warehouse will be started only if [stream](https://docs.snowflake.com/en/user-guide/streams-intro) is not empty. 
